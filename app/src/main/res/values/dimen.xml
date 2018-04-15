@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--View space-->
+    <dimen name="view_space">16dp</dimen>
+    <dimen name="view_space_short">8dp</dimen>
+    <dimen name="view_space_shortest">4dp</dimen>
+    <dimen name="view_space_medium">24dp</dimen>
+    <dimen name="view_space_large">32dp</dimen>
+
+    <!--Text headings-->
+    <!--Text size for each and every question title-->
+    <dimen name="text_heading_que_title">25sp</dimen>
+    <!--Text size for each and every answer-->
+    <dimen name="text_heading_ans">20sp</dimen>
+</resources>

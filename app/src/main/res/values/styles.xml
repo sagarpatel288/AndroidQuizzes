@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--color for toolbar, actionBar-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--color for statusBar-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--Color for checked and selected status for radioButton, checkBox etc...-->
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+    </style>
+
+    <!--Sets width to match parent and height to wrap content-->
+    <style name="MatchWidthWrapHeight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Sets width and height to wrap content-->
+    <style name="WrapWidthWrapHeight">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Style for button e.g. Submit button to submit the answers-->
+    <style name="WrapWidthWrapHeight.Btn">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/view_space</item>
+    </style>
+
+    <!--Style for user input field-->
+    <style name="MatchWidthWrapHeight.TxtInput">
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <!--Style for each and every question title-->
+    <style name="MatchWidthWrapHeight.TxtHeadingQue">
+        <item name="android:textSize">@dimen/text_heading_que_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <!--Style to be set for result text view-->
+    <style name="MatchWidthWrapHeight.TxtHeadingQue.Result">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!--Style for each and every radioGroup available in app-->
+    <style name="MatchWidthWrapHeight.Rg">
+        <item name="android:padding">@dimen/view_space_short</item>
+        <item name="android:textSize">@dimen/text_heading_ans</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:foreground">?android:selectableItemBackground</item>
+    </style>
+</resources>

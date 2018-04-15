@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Color for toolbar, actionBar etc...-->
+    <color name="colorPrimary">#3F51B5</color>
+    <!--Color for statusBar-->
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--Color for checked and selected status for radioButton, checkBox etc...-->
+    <color name="colorAccent">#FF4081</color>
+</resources>
