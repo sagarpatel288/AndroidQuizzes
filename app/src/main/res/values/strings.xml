@@ -1,6 +1,6 @@
 <resources>
     <!--Name of the app. Visible under app icon in launcher as well as by default on toolbar/actionBar-->
-    <string name="app_name">AndroidQuizzes</string>
+    <string name="app_name">Android Quizzes</string>
     <!--Texts for question 1-->
     <string name="label_que_1">What is an Activity in android?</string>
     <!--Texts for answer 1 A-->
