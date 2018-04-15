@@ -1,7 +1,7 @@
 # AndroidQuizzes
 Initial Commit
 
-#Android Quizzes
+Android Quizzes
 ================
 
 This app is the part of Google India Challange Scholarship.
@@ -35,6 +35,6 @@ The app covers following points as indicated in project review rubric and specif
   for pull requests.
   
   
-  #Thank You and have happy coding!
+  **Thank You and have happy coding!
   
 
